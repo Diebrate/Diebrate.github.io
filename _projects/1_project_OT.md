@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Trajectory Inference Using Stochastic Differential Equations and Mean Field Control
+description: PhD research project by Kevin Zhang
+img: assets/img/proj_sde.png
 importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+category: research
+related_publications: zhang2023modeling
 ---
 
 Every project has a beautiful feature showcase page.
