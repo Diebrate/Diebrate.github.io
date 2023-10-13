@@ -5,7 +5,7 @@ description: PhD research project by Kevin Zhang
 img: assets/img/proj_ot.jpg
 importance: 2
 category: research
-giscus_comments: true
+giscus_comments: false
 ---
 
 This page is under construction...

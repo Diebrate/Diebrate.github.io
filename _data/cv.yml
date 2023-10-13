@@ -102,9 +102,9 @@
   contents:
     - year: 2022
       items:
-        - Modelling Cellular Development Trajectory using Unbalanced Optimal Transport
+        - Modelling Cellular Development Trajectory using Unbalanced Optimal Transport<br>
           <em>Medicine by Design’s 7th Annual Symposium</em>
-        - Modelling Single-Cell Type Trajectory Using Optimal Transport
+        - Modelling Single-Cell Type Trajectory Using Optimal Transport<br>
           <em>The Fifth ICSA-Canada Chapter Symposium</em>
 
 
@@ -147,4 +147,5 @@
         - "Proficient in: Python (e.g., NumPy, pandas, PyTorch), R, MySQL"
         - "Familiar with: C++, basic UNIX commands"
     - title: Software
+      items:
         - "\\LaTeX, Git, Microsoft Office, Slurm Workload Manager"
