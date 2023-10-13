@@ -87,6 +87,27 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
+- title: Review Experience
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - "Journal of the American Statistical Association: Applications and Case Studies (1 time)"
+    - year: 2022
+      items:
+        - "Journal of the Royal Statistical Society: Series C (1 time)"
+
+- title: Talks and Conferences
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - Modelling Cellular Development Trajectory using Unbalanced Optimal Transport
+          <em>Medicine by Design’s 7th Annual Symposium</em>
+        - Modelling Single-Cell Type Trajectory Using Optimal Transport
+          <em>The Fifth ICSA-Canada Chapter Symposium</em>
+
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -117,3 +138,13 @@
   type: list
   contents:
     - <u>Hobbies:</u> piano, League of Legends.
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - "Proficient in: Python (e.g., NumPy, pandas, PyTorch), R, MySQL"
+        - "Familiar with: C++, basic UNIX commands"
+    - title: Software
+        - "\\LaTeX, Git, Microsoft Office, Slurm Workload Manager"
