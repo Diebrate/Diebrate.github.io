@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: Trajectory Inference Using OT
+description: PhD research project by Kevin Zhang
+img: assets/img/proj_ot.jpg
+importance: 
+category: research
 giscus_comments: true
 ---
 

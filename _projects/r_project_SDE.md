@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Trajectory Inference Using Stochastic Differential Equations and Mean Field Control
+title: Trajectory Inference Using SDE
 description: PhD research project by Kevin Zhang
 img: assets/img/proj_sde.png
-importance: 1
+importance: 
 category: research
 related_publications: zhang2023modeling
 ---
