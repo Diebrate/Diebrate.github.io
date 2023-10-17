@@ -5,6 +5,7 @@ description: PhD research project by Kevin Zhang
 img: assets/img/proj_sde.png
 importance: 1
 category: research
+github: http://github.com/Diebrate/population_model
 related_publications: zhang2023modeling
 ---
 
