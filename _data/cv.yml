@@ -22,6 +22,16 @@
             - generative modelling
         - title: Thesis Title
           contents: Applications of Optimal Transport and Stochastic Differential Equations in single-cell RNA sequencing data
+    - title: Honours Bachelor of Science
+      institution: University of Toronto, Toronto, ON, Canada
+      year: 2015-2019
+      description:
+        - title: areas of study
+          contents:
+            - pathobiology
+            - statistics
+            - mathematics
+        - "cGPA: 3.89"
 
 - title: Research Experience
   type: time_table
