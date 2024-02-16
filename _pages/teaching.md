@@ -18,6 +18,7 @@ Courses:
 - STA303: Methods of Data Analysis II
 - STA304: Surveys, Sampling and Observational Data
 - STA305: Design and Analysis of Experiments
+- STA414: Statistical Methods for Machine Learning II
 - STA437: Methods for Multivariate Data
 - STA442: Methods of Applied Statistics
 
