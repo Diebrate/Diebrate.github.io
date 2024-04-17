@@ -7,7 +7,12 @@ nav: true
 nav_order: 5
 ---
 
-Teaching Assistant, University of Toronto:
+## Sessional Lecturer, University of Toronto:
+
+Course:
+- STA237: Probability, Statistics and Data Analysis I
+
+## Teaching Assistant, University of Toronto:
 
 Courses:
 - STA130: An Introduction to Statistical Reasoning and Data Science

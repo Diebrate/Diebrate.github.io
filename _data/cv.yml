@@ -34,6 +34,11 @@
 - title: Work Experience
   type: time_table
   contents:
+    - title: Sessional Lecturer
+      institution: University of Toronto, Toronto, Canada
+      year: 2024
+      description:
+        - "Instructed undergraduate statistics courses STA: Probability, Statistics and Data Analysis I."
     - title: Graduate Research Assistant
       institution: University of Toronto, Toronto, Canada
       year: 2019 - 2024
