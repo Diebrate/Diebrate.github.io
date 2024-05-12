@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in the Department of Statistical Sciences at the University of Toronto.
+subtitle: PhD in Statistics
 
 profile:
   align: right
