@@ -8,7 +8,7 @@ category: fun
 github: http://github.com/Diebrate/otapp
 ---
 
-{% include mathjax_macro.html %}
+<!-- {% include mathjax_macro.html %} -->
 
 This page is under construction...
 
@@ -25,3 +25,7 @@ $$
 \end{gathered}
 \end{equation}
 $$
+
+Here $\pi$ is called the joint distribution between $p_X$ and $p_Y$. In other words, $\pi:\Omega\times\Omega\to\mathbb{R}^+$ is a probability density function.
+
+Let's consider the original problem of optimal transport introduced by Monge.
