@@ -7,7 +7,7 @@ importance: 4
 category: fun
 github: http://github.com/Diebrate/otapp
 ---
-<!-- {% include mathjax_macro.html %} -->
+{% include mathjax_macro.html %}
 
 # Optimal Transport
 
