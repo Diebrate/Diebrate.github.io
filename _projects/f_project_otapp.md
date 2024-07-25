@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Applied Optimal Transport
-description: random thoughts and ideas
+description: 
 img:
 importance: 4
 category: fun
@@ -25,7 +25,7 @@ $$
 \end{equation}
 $$
 
-Here, $\pi$ is called the joint distribution between \( p_X \) and \( p_Y \). In other words, \( \pi:\Omega\times\Omega\to\mathbb{R}^+ \) is a probability density function.
+Here, $\pi$ is called the joint distribution between $p_X$ and $p_Y$. In other words, $\pi:\Omega\times\Omega\to\mathbb{R}^+$ is a probability density function.
 
 Let's consider the original problem of optimal transport introduced by Monge.
 
@@ -33,17 +33,17 @@ Let's consider the original problem of optimal transport introduced by Monge.
 
 Gaspard Monge first formulated the problem of optimal transport in 1781. The Monge problem can be described as follows: given two distributions, one representing the initial distribution of mass and the other representing the target distribution, how can we transport the mass from the initial to the target distribution in the most efficient way?
 
-Formally, the Monge problem seeks a map \( T: \Omega \to \Omega \) that minimizes the transportation cost:
+Formally, the Monge problem seeks a map $T: \Omega \to \Omega$ that minimizes the transportation cost:
 
 $$
 \min_T \int_\Omega c(x, T(x)) p_X(x) \, dx
 $$
 
-subject to the constraint that \( T \) pushes forward \( p_X \) to \( p_Y \), meaning \( T \# p_X = p_Y \). Here, \( c(x, y) \) represents the cost of transporting a unit mass from \( x \) to \( y \).
+subject to the constraint that  $T$ pushes forward $p_X$ to $p_Y$ meaning $T_\# p_X = p_Y$. Here, $c(x, y)$ represents the cost of transporting a unit mass from $x$ to $y$.
 
 ### Kantorovich Relaxation
 
-Leonid Kantorovich later relaxed Monge's formulation, allowing for the mass to be split and transported in fractions, which led to a more general and solvable problem. This relaxation leads to the formulation we initially described, which involves finding an optimal coupling \( \pi \). The Kantorovich problem is formulated as:
+Leonid Kantorovich later relaxed Monge's formulation, allowing for the mass to be split and transported in fractions, which led to a more general and solvable problem. This relaxation leads to the formulation we initially described, which involves finding an optimal coupling $\pi$. The Kantorovich problem is formulated as:
 
 $$
 \min_\pi \int_{\Omega \times \Omega} c(x, y) \, d\pi(x, y)
