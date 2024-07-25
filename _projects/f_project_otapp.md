@@ -71,7 +71,7 @@ Solving optimal transport problems, especially in high dimensions, can be comput
 2. **Sinkhorn Algorithm**: An efficient iterative method that solves the entropy-regularized optimal transport problem.
 3. **Network Flow Algorithms**: These algorithms leverage the structure of transportation networks to find optimal solutions efficiently.
 
-For further computational procedures, you may refer to my Python package [**otsde**](**https://github.com/diebrate/otsde**) on my GitHub profile.
+For further computational procedures, you may refer to my Python package [**otsde**](https://github.com/diebrate/otsde) on my GitHub profile.
 
 ### Conclusion
 
