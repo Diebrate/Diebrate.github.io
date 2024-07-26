@@ -40,7 +40,7 @@ $$
 \min_T \int_\Omega c(x, T(x)) p_X(x) \, dx
 $$
 
-subject to the constraint that  $T$ pushes forward $$p_X$$ to $$p_Y$$ meaning $$T_\# p_X = p_Y$$. Here, $$c(x, y)$$ represents the cost of transporting a unit mass from $$x$$ to $$y$$.
+subject to the constraint that $$T$$ pushes forward $$p_X$$ to $$p_Y$$ meaning $$T_\# p_X = p_Y$$. Here, $$c(x, y)$$ represents the cost of transporting a unit mass from $$x$$ to $$y$$.
 
 ### Kantorovich Relaxation
 
