@@ -25,7 +25,7 @@ $$
 \end{equation}
 $$
 
-Here, $\pi$ is called the joint distribution between $p_X$ and $p_Y$. In other words, $\pi:\Omega\times\Omega\to\mathbb{R}^+$ is a probability density function.
+Here, $\pi$ is called the joint distribution between \(p_X\) and \(p_Y\). In other words, \(\pi:\Omega\times\Omega\to\mathbb{R}^+\) is a probability density function.
 
 Let's consider the original problem of optimal transport introduced by Monge.
 
@@ -33,7 +33,7 @@ Let's consider the original problem of optimal transport introduced by Monge.
 
 Gaspard Monge first formulated the problem of optimal transport in 1781. The Monge problem can be described as follows: given two distributions, one representing the initial distribution of mass and the other representing the target distribution, how can we transport the mass from the initial to the target distribution in the most efficient way?
 
-Formally, the Monge problem seeks a map $T: \Omega \to \Omega$ that minimizes the transportation cost:
+Formally, the Monge problem seeks a map \(T: \Omega \to \Omega\) that minimizes the transportation cost:
 
 $$
 \min_T \int_\Omega c(x, T(x)) p_X(x) \, dx
