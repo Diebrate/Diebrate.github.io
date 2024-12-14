@@ -34,6 +34,15 @@
 - title: Work Experience
   type: time_table
   contents:
+    - title: Software Developer
+      institution: Robinhood, Toronto, Canada
+      year: 2024 - Present
+      description:
+        - "Member of the Identity team: responsible for the authentication and authorization of users."
+        - "Developed and maintained software for the Robinhood trading platform."
+        - "Worked on the backend team to improve the performance and reliability of the platform."
+        - "Collaborated with the frontend team to design and implement new features."
+        - "Technologies used: Python, Django, PostgreSQL, Redis, Docker, Kubernetes, AWS."
     - title: Sessional Lecturer
       institution: University of Toronto, Toronto, Canada
       year: 2024
