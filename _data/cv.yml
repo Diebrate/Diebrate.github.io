@@ -34,9 +34,14 @@
 - title: Work Experience
   type: time_table
   contents:
+    - title: Research Machine Learning Scientist II
+      institution: Layer 6 AI (TD Bank Group), Toronto, Canada
+      year: 2025 - Present
+      description:
+        - "Just a science dude."
     - title: Software Developer
       institution: Robinhood, Toronto, Canada
-      year: 2024 - Present
+      year: 2024 - 2025
       description:
         - "Member of the Identity team: responsible for the authentication and authorization of users."
         - "Developed and maintained software for the Robinhood trading platform."

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Developer, PhD in Statistics
+subtitle: Research ML Scientist | Software Engineer | PhD in Statistics
 
 profile:
   align: right
@@ -16,4 +16,4 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am currently working as a backend software developer for Robinhood, where I design, build, and deploy scalable backend services that power core financial products. My work involves leveraging technologies like Python/Django, Go, PostgreSQL, Kafka, Redis, and Kubernetes to deliver robust solutions that meet stringent scalability and correctness requirements. Previously, I obtained my PhD from the Department of Statistical Sciences, University of Toronto, where my research focused on generative modeling and anomaly detection using optimal transport theory, stochastic differential equations, and game theory. During my PhD, I gained proficiency in Python, R, and MATLAB, utilizing libraries like NumPy, Pandas, PyTorch, and TensorFlow for machine learning research on real-world datasets. I am also experienced with SQL, C++, and the Unix/Linux environment. My academic journey began at the University of Toronto, where I earned my undergraduate degree with a specialist in pathobiology, a major in statistics, and a minor in mathematics.
+I am a Research Machine Learning Scientist at **Layer 6 AI (TD Bank Group)**, focusing on the interplay between theoretical and applied large language model (LLM) research—turning ideas in generative modeling, anomaly detection, and stochastic differential equations into production systems for financial applications. Previously, I was a backend software engineer at Robinhood, where I designed and deployed scalable services for core financial products using Python/Django, Go, PostgreSQL, Kafka, Redis, and Kubernetes. I hold a PhD in Statistics from the University of Toronto, where my research centered on generative modeling and anomaly detection via optimal transport, stochastic differential equations, and game-theoretic methods. I work extensively with PyTorch, TensorFlow, Python’s scientific stack (NumPy, Pandas), and also have experience with R, MATLAB, SQL, C++, and Unix/Linux. My academic foundation includes an undergraduate specialist in pathobiology, a major in statistics, and a minor in mathematics (University of Toronto).
