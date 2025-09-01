@@ -2,112 +2,96 @@
   type: map
   contents:
     - name: Full Name
-      value: Kevin Zhang
+      value: Albert Einstein
     - name: Date of Birth
-      value: October 30th, 1996
+      value: 14th March 1879
     - name: Languages
-      value: English, Chinese, Shanghainese
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: Doctor of Philosophy
-      institution: University of Toronto, Toronto, Ontario, Canada
-      year: 2019 - 2024
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - Statistics
-        - title: Research Topics
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
           contents:
-            - Optimal Transport
-            - Stochastic Differential Equations
-        - "Thesis: Applications of Optimal Transport and Stochastic Differential Equations in Single-Cell RNA Sequencing Data"
-    - title: Bachelor of Science
-      institution: University of Toronto, Toronto, Ontario, Canada
-      year: 2015 - 2019
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - title: Areas of Study
-          contents:
-            - Pathobiology
-            - Statistics
-            - Mathematics
+        - Description 1.
+        - Description 2.
 
-- title: Work Experience
+- title: Experience
   type: time_table
   contents:
-    - title: Research Machine Learning Scientist II
-      institution: Layer 6 AI (TD Bank Group), Toronto, Canada
-      year: 2025 - Present
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - "Just a science dude."
-    - title: Software Developer
-      institution: Robinhood, Toronto, Canada
-      year: 2024 - 2025
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
-        - "Member of the Identity team: responsible for the authentication and authorization of users."
-        - "Developed and maintained software for the Robinhood trading platform."
-        - "Worked on the backend team to improve the performance and reliability of the platform."
-        - "Collaborated with the frontend team to design and implement new features."
-        - "Technologies used: Python, Django, PostgreSQL, Redis, Docker, Kubernetes, AWS."
-    - title: Sessional Lecturer
-      institution: University of Toronto, Toronto, Canada
-      year: 2024
-      description:
-        - "Instructed undergraduate statistics courses STA237: Probability, Statistics and Data Analysis I."
-    - title: Graduate Research Assistant
-      institution: University of Toronto, Toronto, Canada
-      year: 2019 - 2024
-      description:
-        - Worked under the supervision of <a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/dehan-kong">Dr. Dehan Kong</a> and <a href="http://sites.utoronto.ca/zhanglab/">Dr. Zhaolei Zhang</a>.
-        - Research topics include applications of optimal transport and stochastic differential equations in machine learning with a focus on anomaly detection and generative modelling in time series data (specifically single-cell RNA sequencing data).
+        - Description 1.
+        - Description 2.
 
-    - title: Teaching Assistant
-      institution: University of Toronto, Toronto, Canada
-      year: 2019 - 2024
-      description:
-        - Responsible for various undergraduate statistics courses from introductory probability theory to advanced multivariate statistics.
-        - Held tutorials as mini-lectures for undergraduate students.
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2015 - 2019
-      items: 
-        - Dean's List (University of Toronto)
-    - year: 2018
-      items: 
-        - New College Council In-Course Scholarship (University of Toronto)
-    - year: 2017
+    - year: 1921
       items:
-        - LMP Undergraduate Summer Research Program UROP Award (University of Toronto)
-    - year: 2015
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
       items:
-        - Undergraduate Entrance Award (University of Toronto)
+        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    # - title: Topic 1.
-    #   items: 
-    #     - Description 1.
-    #     - Description 2.
-    # - title: Topic 2.
-    #   items:
-    #     - Description 1.
-    #     - Description 2.
-    - title: Optimal Transport
-    - title: Stochastic Differential Equations
-    - title: Generative Modelling
-    - title: Wasserstein Generative Adversarial Networks
-    - title: Mean Field Game/Control
+    - title: Topic 1.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Football (soccer), Piano, World of Warcraft, League of Legends.
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
