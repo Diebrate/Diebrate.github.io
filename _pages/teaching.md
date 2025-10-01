@@ -2,29 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: 
+description: Materials for courses you taught. Replace this text with your description.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
-## Sessional Lecturer, University of Toronto:
+For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Course:
-- STA237: Probability, Statistics and Data Analysis I
-
-## Teaching Assistant, University of Toronto:
-
-Courses:
-- STA130: An Introduction to Statistical Reasoning and Data Science
-- STA220: The Practice of Statistics I
-- STA255: Statistical Theory
-- STA261: Probability and Statistics II
-- STA302: Methods of Data Analysis I
-- STA303: Methods of Data Analysis II
-- STA304: Surveys, Sampling and Observational Data
-- STA305: Design and Analysis of Experiments
-- STA414: Statistical Methods for Machine Learning II
-- STA437: Methods for Multivariate Data
-- STA442: Methods of Applied Statistics
-
-Held weekly tutorials/office hours and monitored online course forums. Invigilated and marked midterms and exams.
+Organize your courses by years, topics, or universities, however you like!
