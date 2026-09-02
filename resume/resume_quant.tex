@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage{calc}
+\usepackage[top=0.25in,bottom=0.25in,right=0.25in,left=0.25in]{geometry}
+\usepackage{hyperref}
+% \usepackage{times}
+\usepackage{enumitem}
+\usepackage{fontenc}
+\usepackage{tgbonum}
+\usepackage{lipsum}  
+
+\setlist[enumerate]{topsep=0pt}
+\setlist[itemize]{noitemsep,topsep=0pt}
+
+\newlength{\remaining}
+\renewcommand{\section}[1]{%
+  \vspace{0.4em}\setlength{\remaining}{\textwidth-\widthof{\uppercase{#1}}}
+    \noindent\underline{\fontsize{9}{15}\bfseries\uppercase{#1}\hspace*{\remaining}}
+}
+% \subsection{Role, Organization}{Dates}        -> Role, Organization        Dates
+% \subsection{Role}{Organization}{Dates}        -> Role | Organization       Dates
+% The middle argument is optional: the third brace group is picked up only if
+% one actually follows, so both call styles above are valid.
+\makeatletter
+\renewcommand{\subsection}[2]{%
+    \noindent\textbf{#1}\kz@subsec@peek{#2}%
+}
+\newcommand{\kz@subsec@peek}[1]{%
+    \@ifnextchar\bgroup{\kz@subsec@three{#1}}{\hfill #1}%
+}
+\newcommand{\kz@subsec@three}[2]{ | \emph{#1}\hfill #2}
+\makeatother
+\pagenumbering{gobble}
+
+\begin{document}
+    \fontencoding{T1}
+    \fontfamily{phv}
+    \fontsize{9}{15}
+    \selectfont
+    \begin{center}
+        \begin{center}
+            \huge\bfseries Kevin Zhang
+        \end{center}
+            \begin{tabular}{c|c|c|c|c|c}
+                \href{tel:+16478966853}{+16478966853} &
+                \href{mailto:kevinkw.zhang@mail.utoronto.ca}{kevinkw.zhang@mail.utoronto.ca} & 
+                \href{https://www.linkedin.com/in/kevin-zhang-uoft/}{LinkedIn} & 
+                \href{https://github.com/diebrate/}{GitHub} &
+                \href{https://diebrate.github.io/}{Diebrate.github.io} &
+                Canadian Citizen (TN Visa), New Zealand Citizen
+        \end{tabular}
+    \end{center}    
+    \vspace{-0.75em}
+    \input{sections_quant/objective}
+    \input{sections_quant/skills}
+    \input{global/education}
+    \input{sections_quant/experience.tex}
+    \input{sections_quant/projects}
+    \input{global/awards}
+  
+\end{document}
