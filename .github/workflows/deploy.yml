@@ -28,9 +28,17 @@ jobs:
 
       - name: Publish resume PDF into site assets
         run: |
+          set -euxo pipefail
+          if [ ! -f resume/build/resume_special.pdf ]; then
+            echo "::error::resume/build/resume_special.pdf was not produced"
+            ls -laR resume | head -60
+            exit 1
+          fi
           mkdir -p assets/pdf
           cp resume/build/resume_special.pdf assets/pdf/resume_KZhang.pdf
-          rm -rf resume/build
+          # latex-action runs in a container as root, so resume/build and its
+          # contents are root-owned and need sudo to clear from the host runner.
+          sudo rm -rf resume/build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
