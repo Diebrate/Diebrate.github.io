@@ -17,6 +17,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Compile the LaTeX resume so the published site always serves the PDF
+      # built from the current sources in resume/.
+      - name: Build resume PDF
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: resume_special.tex
+          working_directory: resume
+          args: -pdf -outdir=build -file-line-error -halt-on-error -interaction=nonstopmode
+
+      - name: Publish resume PDF into site assets
+        run: |
+          mkdir -p assets/pdf
+          cp resume/build/resume_special.pdf assets/pdf/resume_KZhang.pdf
+          rm -rf resume/build
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
